@@ -1,32 +1,30 @@
 @charset "UTF-8";
-/*!
- * Vali Admin
- * Author: Pratik Borsadiya
- * ================================*/
 @import url(https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap);
 
 @font-face {
   font-family: "meal-admin";
   src: url("./assets/fonts/meal-admin.eot");
-  /* src: url("../fonts/meal-admin.eot?b7a8ot"); */
   src: url("./assets/fonts/meal-admin.eot") format("embedded-opentype"), url("assets/fonts/meal-admin.ttf") format("truetype"), url("assets/fonts/meal-admin.woff") format("woff"), url("assets/fonts/meal-admin.svg") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: block;
 }
-.modal-container{
+
+.modal-container {
   overflow: auto;
 }
-.modal-footer{
-margin-bottom: 30px;
-align-items: center;
+
+.modal-footer {
+  margin-bottom: 30px;
+  align-items: center;
 }
+
 .employee-dot {
   position: absolute;
   bottom: 5px;
   left: 5px;
 }
-/* ///////////////////////////////////////////////////////////////////////// */
+
 .nav-link {
   position: relative;
   text-decoration: none;
@@ -62,20 +60,29 @@ align-items: center;
 
 /* ---------------------------------------------------------------------------------------------externL CSS */
 .pagination-container {
-  position: fixed; /* Ensures the container stays fixed on the screen */
-  bottom: 0; /* Place it at the bottom of the viewport */
-  left: 0; /* Align it to the start of the screen */
-  width: 100%; /* Span the entire width of the screen */
+  position: fixed;
+  /* Ensures the container stays fixed on the screen */
+  bottom: 0;
+  /* Place it at the bottom of the viewport */
+  left: 0;
+  /* Align it to the start of the screen */
+  width: 100%;
+  /* Span the entire width of the screen */
   display: flex;
-  justify-content: center; /* Center the buttons horizontally */
-  background-color: #f8f9fa; /* Light background for visibility */
+  justify-content: center;
+  /* Center the buttons horizontally */
+  background-color: #f8f9fa;
+  /* Light background for visibility */
   padding: 10px 0;
-  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1); /* Optional shadow for separation */
-  z-index: 1000; /* Ensure it appears above other elements */
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+  /* Optional shadow for separation */
+  z-index: 1000;
+  /* Ensure it appears above other elements */
 }
 
 .pagination-btn {
-  margin: 0 5px; /* Add space between buttons */
+  margin: 0 5px;
+  /* Add space between buttons */
   padding: 8px 12px;
   font-size: 14px;
   border: 1px solid #ccc;
@@ -101,14 +108,17 @@ align-items: center;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 10px; /* Adjust spacing between elements */
-  margin-bottom: 20px; /* Add some space below the row */
-  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+  gap: 10px;
+  /* Adjust spacing between elements */
+  margin-bottom: 20px;
+  /* Add some space below the row */
+  flex-wrap: wrap;
+  /* Allow wrapping on smaller screens */
   margin-top: 10px;
 }
 
 .search-input {
- /* Make the search bar take up available space */
+  /* Make the search bar take up available space */
   padding: 8px;
   font-size: 14px;
   border: 1px solid #ccc;
@@ -122,6 +132,7 @@ align-items: center;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
+
 .export-btn.disabled {
   pointer-events: none;
   background-color: #ccc;
@@ -130,7 +141,7 @@ align-items: center;
 }
 
 .export-btn {
-  
+
   padding: 8px 12px;
   font-size: 14px;
   background-color: #007bff;
@@ -138,7 +149,8 @@ align-items: center;
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  text-decoration: none; /* Remove underline for the CSV link */
+  text-decoration: none;
+  /* Remove underline for the CSV link */
 }
 
 .export-btn:hover {
@@ -151,7 +163,8 @@ align-items: center;
   overflow-x: auto;
 }
 
-.table th, .table td {
+.table th,
+.table td {
   padding: 10px;
   text-align: center;
 }
@@ -189,7 +202,8 @@ align-items: center;
   overflow-x: auto;
 }
 
-.table th, .table td {
+.table th,
+.table td {
   padding: 10px;
   text-align: center;
 }
@@ -6700,7 +6714,7 @@ fieldset:disabled .btn {
     overflow-y: auto;
   }
 
-  .modal-fullscreen-xxl-down  {
+  .modal-fullscreen-xxl-down {
     border-radius: 0;
   }
 }
@@ -15103,4 +15117,24 @@ img {
   border: 1px solid black;
   padding: 20px;
 
+}
+
+
+.rbc-day-bg {
+  /* background-color: coral; */
+  /* padding: 10px; */
+}
+.rbc-event-content {
+  top: 0px;
+  white-space: unset !important;
+  display: flex;
+  margin: 5px !important;
+  justify-content: center;
+  flex-wrap: wrap !important;
+  overflow: visible !important;
+  height: fit-content !important;
+  font-size: 11px;
+}
+.rbc-btn-group{
+  
 }
